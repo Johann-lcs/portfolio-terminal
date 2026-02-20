@@ -151,37 +151,32 @@ function handleCommand(cmd, container) {
     const line = document.createElement("p");
 
     if (cmd === "help") {
-        line.innerHTML = `
-        Commandes disponibles :<br>
-        <span class="command">about</span><br>
-        <span class="command">skills</span><br>
-        <span class="command">projects</span><br>
-        <span class="command">experience</span><br>
-        <span class="command">education</span><br>
-        <span class="command">contact</span><br>
-        <span class="command">clear</span>
-        `;
-        container.appendChild(line);
-    } else if (cmd === "clear") {
-        // Supprime uniquement le contenu du terminal, pas le logo
+        const helpText = [
+            "Commandes disponibles :",
+            '<span class="command-help">  about       </span> → Infos personnelles',
+            '<span class="command-help">  skills      </span> → Compétences',
+            '<span class="command-help">  projects    </span> → Projets réalisés',
+            '<span class="command-help">  experience  </span> → Expériences',
+            '<span class="command-help">  education   </span> → Formation',
+            '<span class="command-help">  contact     </span> → Contact',
+            '<span class="command-help">  clear       </span> → Effacer le terminal'
+        ];
+        // Ajouter chaque ligne immédiatement avec innerHTML
+        helpText.forEach(line => {
+            const p = document.createElement("p");
+            p.innerHTML = line;  // innerHTML pour interpréter le HTML
+            container.appendChild(p);
+        });
+    }
+    else if (cmd === "clear") {
         container.innerHTML = "";
-    } else if (commandOutputs[cmd]) {
-        // Si c'est un tableau, on le garde tel quel
-        let lines = commandOutputs[cmd];
-
-        // Sinon si c'est une chaîne avec \n, on split
-        if (!Array.isArray(lines)) {
-            lines = commandOutputs[cmd].split("\n");
-        }
-
-        // Afficher chaque ligne avec un délai entre elles
-        typeWriterLines(container, lines);
+    }
+    else if (commandOutputs[cmd]) {
+        typeWriterLines(container, commandOutputs[cmd], 5, 20);
     }
     else {
-        line.textContent = `Commande inconnue : ${cmd} (tape "help")`;
-        container.appendChild(line);
+        typeWriterLines(container, [`Commande inconnue : ${cmd} (tape "help")`], 5, 20);
     }
-
     input.focus();
 }
 

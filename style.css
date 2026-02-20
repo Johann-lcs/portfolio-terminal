@@ -38,6 +38,10 @@ input {
     color: #00ffaa;
 }
 
+.command-help {
+    color: #00ffaa;
+}
+
 input::after {
     content: "|";
     animation: blink 1s infinite;
