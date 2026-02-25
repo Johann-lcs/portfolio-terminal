@@ -19,6 +19,13 @@ const commandOutputs = {
         "- C#",
         "- Java",
         "",
+        " Bases de données :",
+        "- SQL (requêtes SELECT, INSERT, UPDATE, JOIN)",
+        "- MariaDB",
+        "- MySQL",
+        "- Modélisation MCD / MLD",
+        "- Notions NoSQL (MongoDB)",
+        "",
         " Systèmes & Réseaux :",
         "- Linux (Debian, ligne de commande)",
         "- Configuration FTP / Apache",
@@ -85,7 +92,7 @@ const commandOutputs = {
         " GitHub : https://github.com/johann-lcs",
         " LinkedIn : https://linkedin.com/in/johann-lcs",
         "",
-        "Disponible pour stage / alternance."
+        "!!! Disponible pour une alternance. !!!"
     ]
 };
 
