@@ -1,6 +1,6 @@
-# 💻 Portfolio interactif – Terminal Linux
+# Portfolio interactif – Terminal Linux
 
-## 🚀 Présentation
+## Présentation
 
 Ce projet est un **portfolio web interactif** qui prend la forme d’un **terminal Linux**.
 L’objectif est de présenter mon profil, mes compétences et mes projets de manière originale.
@@ -9,7 +9,7 @@ L’utilisateur interagit avec le site **uniquement via des commandes**, comme d
 
 ---
 
-## 🎯 Objectifs du projet
+## Objectifs du projet
 
 * Proposer un **portfolio original** et différenciant
 * Mettre en avant ma **logique de développement** et ma maîtrise des bases web
@@ -18,7 +18,7 @@ L’utilisateur interagit avec le site **uniquement via des commandes**, comme d
 
 ---
 
-## 🧠 Concept
+## Concept
 
 * Interface noir & vert (style terminal)
 * Police monospace
@@ -28,7 +28,7 @@ L’utilisateur interagit avec le site **uniquement via des commandes**, comme d
 
 ---
 
-## 🧩 Commandes disponibles (exemples)
+## Commandes disponibles (exemples)
 
 ```bash
 help        # liste des commandes disponibles
@@ -43,7 +43,7 @@ clear       # nettoyer le terminal
 
 ---
 
-## 🛠️ Technologies utilisées
+## Technologies utilisées
 
 * **HTML5** : structure
 * **CSS3** : style terminal
@@ -53,14 +53,14 @@ clear       # nettoyer le terminal
 
 ---
 
-## 🌍 Accès au projet
+## Accès au projet
 
 🔗 **Portfolio en ligne** :
 👉 https://<ton-pseudo>.github.io/portfolio-terminal/
 
 ---
 
-## 📁 Structure du projet
+## Structure du projet
 
 ```
 portfolio-terminal/
@@ -72,7 +72,7 @@ portfolio-terminal/
 
 ---
 
-## 📌 État du projet
+## État du projet
 
 🟡 En cours de développement
 Fonctionnalités prévues :
@@ -84,13 +84,13 @@ Fonctionnalités prévues :
 
 ---
 
-## 👤 Auteur
+## Auteur
 
 **Johann**
 Étudiant en **BTS SIO**
 Intéressé par le développement, les systèmes et la cybersécurité
 
-📫 Contact :
+Contact :
 
 * GitHub : [https://github.com/](https://github.com/)<ton-pseudo>
 * Email : <ton-email>
@@ -98,4 +98,4 @@ Intéressé par le développement, les systèmes et la cybersécurité
 
 ---
 
-> 💡 Ce projet a été conçu comme un support de présentation pour des candidatures professionnelles (stage / alternance / emploi).
+> Ce projet a été conçu comme un support de présentation pour des candidatures professionnelles (stage / alternance / emploi).
